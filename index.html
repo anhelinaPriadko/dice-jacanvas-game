@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dice Roll — Canvas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="result">Press "Roll Dice"</h1>
+    <p class="subtitle">Higher number wins. Equal values — draw.</p>
+  </header>
+
+  <main id="game">
+    <div class="canvas-wrap">
+      <canvas id="board" aria-label="Dice board"></canvas>
+    </div>
+
+    <div id="controls">
+      <button id="rollBtn">Roll Dice</button>
+      <div class="meta">
+        <span id="score">— : —</span>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <small>Responsive Canvas Dice — scalable and crisp on mobile.</small>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
